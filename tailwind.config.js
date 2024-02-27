@@ -11,11 +11,15 @@ export default {
 				500: '#5A6268',
 				600: '#464F55',
 				900: '#181B1F'
-			}
+			},
+			transparent: 'transparent'
 		},
 		fontSize: {
 			'display-xs': ['1.5rem', '1.3'],
-			sm: ['0.875rem', '1.42']
+			'display-sm': ['1.875rem', '1.12'],
+			'display-md': ['2.25rem', '1.22'],
+			sm: ['0.875rem', '1.42'],
+			md: ['1rem', '1.5']
 		},
 		fontFamily: {
 			inter: ['Inter', 'sans-serif']
